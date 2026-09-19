@@ -25,7 +25,7 @@ ServerEvents.recipes(event => {
         for (let itemA of inputA) {
             for (let itemB of inputB) {
                 // the a here is so that it gets sorted on top, jei sorts by recipe id
-                event.recipes.gtceu.alloy_smelter(`gtceu:${Item.of(itemA).idLocation.path}_and_${Item.of(itemB).idLocation.path}_into_${Item.of(result).idLocation.path}`)
+                event.recipes.gtceu.alloy_smelter(`gtceu:${Item.of(itemA).idLocation.path}_and_${Item.of(itemB).idLocation.path}_into_${Item.of(result.concat("_ingot")).idLocation.path}`)
                     .itemInputs(itemA, itemB)
                     .itemOutputs(Item.of(result.concat("_ingot")))
                     .duration(duration * 20)
@@ -73,6 +73,27 @@ ServerEvents.recipes(event => {
         ["4x #forge:dusts/steel", "4x #forge:ingots/steel"],
         ["#forge:dusts/boron"],
         "5x gtceu:ferroboron", 15, GTValues.VA[GTValues.MV], true);
+
+    alloySmeltingVariant(
+        ["#forge:ingots/ferroboron"],
+        ["#forge:dusts/lithium"],
+        "2x nuclearcraft:tough_alloy", 15, GTValues.VHA[GTValues.LV], false);
+
+    alloySmeltingVariant(
+        ["#forge:dusts/diamond", "#forge:gems/diamond"],
+        ["3x #forge:dusts/steel", "3x #forge:ingots/steel"],
+        "nuclearcraft:hard_carbon", 15, GTValues.VA[GTValues.HV], true);
+
+    alloySmeltingVariant(
+        ["4x #forge:dusts/gold", "4x #forge:ingots/gold"],
+        ["4x #forge:dusts/netherite_scrap", "4x #forge:ingots/netherite_scrap"],
+        "minecraft:netherite", 5, GTValues.VA[GTValues.LV], false);
+
+    event.recipes.gtceu.alloy_smelter("kubejs:fission_reactor_glass")
+        .itemInputs("nuclearcraft:fission_reactor_casing", "#forge:glass/colorless")
+        .itemOutputs("nuclearcraft:fission_reactor_glass")
+        .duration(50)
+        .EUt(GTValues.VHA[GTValues.LV])
 
     alloySmeltingVariant(
         ["5x #forge:dusts/ferroboron", "5x #forge:ingots/ferroboron"],

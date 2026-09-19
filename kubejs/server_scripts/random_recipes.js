@@ -117,7 +117,9 @@ ServerEvents.recipes(event => {
         [500, 1600, "gtceu:cetane_boosted_diesel"],
         [400, 1600, "gtceu:gasoline"],
         [250, 1200, "gtceu:high_octane_gasoline"],
-        [150, 900, "gtceu:jean_gasoline"]
+        [150, 900, "gtceu:jean_gasoline"],
+        [500, 2000, "gtceu:nitrobenzene"],
+        [250, 1600, "gtceu:wither_gas"]
     ]
 
     for (const [mB, duration, id] of cryolobusFuels) {
@@ -634,7 +636,7 @@ ServerEvents.recipes(event => {
     // Wither Gas consumption
     event.recipes.gtceu.gas_turbine("wither_gas_generator")
         .inputFluids("gtceu:wither_gas 1")
-        .duration(140)
+        .duration(280)
         .EUt(-GTValues.V[GTValues.LV])
 
     // Wither Gas
