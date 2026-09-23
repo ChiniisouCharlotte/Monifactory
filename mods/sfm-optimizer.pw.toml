@@ -1,0 +1,13 @@
+name = "SFM Optimizer"
+filename = "sfm_optimizer-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "51e70adc6e974e60ab428a6e497052989f16c8d7"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8814528
+project-id = 1683019

@@ -1,0 +1,13 @@
+name = "Remove Hardcoded Colors From Functional Storage Upgrades"
+filename = "FunctionalStorageColor-1.20.1-1.0.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "152595e77b58669a66aeea2888e2f704c9987b0a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5967957
+project-id = 1154384
