@@ -1,0 +1,13 @@
+name = "Custom Item Despawn Duration"
+filename = "custom-item-despawn-duration-forge-0.1.0-1.20.1.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "da35c88e45eaaa8a74b954f4f8215fd8f7dbf889"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5526802
+project-id = 1059350
