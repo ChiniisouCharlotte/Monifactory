@@ -1,0 +1,13 @@
+name = "No LAN Cheating"
+filename = "nolancheating-forge-1.20.1-1.2.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "d55eca1d09cb7ba525682a4a5130a6c62fd5d64b"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5110147
+project-id = 334957

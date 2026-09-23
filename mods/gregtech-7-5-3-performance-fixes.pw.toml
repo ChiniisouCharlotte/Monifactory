@@ -1,0 +1,13 @@
+name = "GregTech  7.5.3 Performance Fixes"
+filename = "gtopt-0.1.4.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "98cdf8043433541e751dd1a3ccbaf450a9a7cd6a"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 8652565
+project-id = 1632593

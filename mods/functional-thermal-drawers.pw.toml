@@ -1,0 +1,13 @@
+name = "Functional Thermal Drawers"
+filename = "thermaldrawers-1.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "df5b80deb20e76874b47ee8e8f33701390942273"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 5323943
+project-id = 1015036

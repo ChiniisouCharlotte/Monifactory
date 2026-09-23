@@ -1,0 +1,13 @@
+name = "Phoenix's Chromatic Codes"
+filename = "chromatic_codes-12.0.jar"
+side = "both"
+
+[download]
+hash-format = "sha1"
+hash = "4f80b7c8445654b4b86bd45af2964d4228aec96d"
+mode = "metadata:curseforge"
+
+[update]
+[update.curseforge]
+file-id = 7985373
+project-id = 1483210
