@@ -14,7 +14,10 @@ if (Platform.isLoaded("create")) {
         "create:brass_sheet",
         "create:iron_sheet",
         "create:sturdy_sheet",
-        "create:golden_sheet"
+        "create:golden_sheet",
+        /create:crushed_raw.*/gm,
+        "create:raw_zinc",
+        "create:raw_zinc_block"
     );
 };
 
