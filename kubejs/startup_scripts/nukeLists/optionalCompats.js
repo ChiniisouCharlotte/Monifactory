@@ -10,6 +10,8 @@ if (Platform.isLoaded("sfm")) {
 
 if (Platform.isLoaded("create")) {
     global.itemNukeList.push(
+        "create:zinc_ingot",
+        "create:brass_ingot",
         "create:copper_sheet",
         "create:brass_sheet",
         "create:iron_sheet",
